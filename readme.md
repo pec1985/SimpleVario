@@ -1,4 +1,4 @@
-SimpleVario 1.0!!
+### SimpleVario 1.0!!
 Pedro Enrique
 
 Components I built:
@@ -20,9 +20,10 @@ Dependencies:
     - i2c_t3
     - LiquidCrystal_I2C
 
-Once built, run turn on the vario once, after it boots, a settings file gets
+Once built, turn on the vario once, after it boots, a settings file gets
 created, turn it off now and get the SD card out. Modify that `SETTINGS.TXT` 
 file. This file will look like this.
+
 ```
 ------------------------------------------
 UNIT_SYSTEM=IMPERIAL
@@ -40,6 +41,7 @@ GLIDER_TYPE=Wills Wing - Sport 2 136
 
 Wire the components to the Teesy 3.2 board as follows:
 
+```
     Component       Teensy 3.2
         Pin             Pin
 
@@ -85,3 +87,4 @@ Wire the components to the Teesy 3.2 board as follows:
     Button Down
         POS . . . . . . 15
         NEG . . . . . . GND
+```
